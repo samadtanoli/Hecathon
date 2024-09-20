@@ -30,7 +30,7 @@ function login() {
 //   }
 
   if (role.value === "student") {
-    window.location.href = "/student.html";
+    window.location.href = "/studentmarks.html";
   } else {
     window.location.href = "/admin.html";
   }
